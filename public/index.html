@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>校招生在线学习系统</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Campus Learning</p>
+        <h1 id="exam-title">校招生在线学习系统</h1>
+      </div>
+      <a class="text-link" href="/admin.html">教师后台</a>
+    </header>
+
+    <main class="layout">
+      <section class="exam-shell">
+        <div class="summary-band" id="exam-summary">正在载入课程项目...</div>
+        <section id="exam-picker" class="exam-picker"></section>
+        <section id="course-material" class="material-panel" hidden></section>
+        <form id="exam-form" class="exam-form" hidden>
+          <div class="candidate-grid">
+            <label>
+              <span>姓名</span>
+              <input id="candidate-name" name="name" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              <span>工号</span>
+              <input id="candidate-id" name="employeeId" type="text" autocomplete="off" required />
+            </label>
+          </div>
+
+          <div id="question-list" class="question-list"></div>
+
+          <div class="action-row">
+            <p id="form-status" class="status-text" role="status"></p>
+            <button id="submit-button" class="primary-button" type="submit">提交答卷</button>
+          </div>
+        </form>
+
+        <section id="result-panel" class="result-panel" hidden></section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

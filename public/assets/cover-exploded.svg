@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">耳机结构爆炸图标注版</title>
+  <desc id="desc">耳机结构件和装配关系学习材料封面图</desc>
+  <rect width="960" height="480" fill="#f8fafc"/>
+  <rect x="46" y="44" width="868" height="392" rx="18" fill="#ffffff" stroke="#d6dee9" stroke-width="3"/>
+  <ellipse cx="238" cy="244" rx="92" ry="62" fill="#111827"/>
+  <ellipse cx="438" cy="244" rx="84" ry="56" fill="#334155"/>
+  <ellipse cx="624" cy="244" rx="72" ry="48" fill="#0f766e"/>
+  <circle cx="758" cy="244" r="44" fill="#2563eb"/>
+  <g stroke="#94a3b8" stroke-width="5" stroke-dasharray="12 12">
+    <path d="M330 244h82"/>
+    <path d="M522 244h74"/>
+    <path d="M696 244h18"/>
+  </g>
+  <g fill="#ffffff" font-family="Microsoft YaHei, Arial" font-size="22" font-weight="700">
+    <text x="196" y="252">壳体</text>
+    <text x="398" y="252">支架</text>
+    <text x="588" y="252">胶区</text>
+    <text x="736" y="252">器件</text>
+  </g>
+  <text x="82" y="108" fill="#0f766e" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700">STRUCTURE MAP</text>
+  <text x="82" y="414" fill="#475467" font-family="Microsoft YaHei, Arial" font-size="24">结构件名称 · 材料 · 固定方式 · 装配关系</text>
+</svg>

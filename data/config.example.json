@@ -1,0 +1,8 @@
+{
+  "title": "校招生在线学习系统",
+  "passingScore": 60,
+  "scoring": {
+    "single": 4,
+    "multiple": 8
+  }
+}

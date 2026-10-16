@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "R01",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "可靠性定义",
+    "stem": "可靠性的核心定义是：产品在设计使用条件和设计使用时间内，能够实现设计功能的什么？",
+    "options": [
+      { "key": "A", "text": "平均寿命" },
+      { "key": "B", "text": "概率" },
+      { "key": "C", "text": "安全系数" },
+      { "key": "D", "text": "失效率" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "R02",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "可靠性三要素",
+    "stem": "评价产品可靠性时，必须同时明确使用条件、特定时间以及什么？",
+    "options": [
+      { "key": "A", "text": "载荷水平" },
+      { "key": "B", "text": "样本数量" },
+      { "key": "C", "text": "特定功能" },
+      { "key": "D", "text": "失效判据" }
+    ],
+    "answer": ["C"]
+  },
+  {
+    "id": "R03",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "可靠性与质量",
+    "stem": "关于可靠性与质量缺陷的区别，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "可靠性只讨论单个样本的瞬时表现" },
+      { "key": "B", "text": "可靠性关注产品长期平均表现，应结合使用环境和时间理解" },
+      { "key": "C", "text": "质量和可靠性完全等价，不需要区分" },
+      { "key": "D", "text": "可靠性不需要定义产品功能" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "R04",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "MTBF",
+    "stem": "MTBF 的含义是：",
+    "options": [
+      { "key": "A", "text": "平均故障间隔时间" },
+      { "key": "B", "text": "最大理论弯曲力" },
+      { "key": "C", "text": "材料热膨胀系数" },
+      { "key": "D", "text": "最低批量失效率" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R05",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "概率分布",
+    "stem": "Weibull 分布在可靠性分析中常用于描述什么？",
+    "options": [
+      { "key": "A", "text": "失效概率或寿命分布特征" },
+      { "key": "B", "text": "应力-应变曲线形状" },
+      { "key": "C", "text": "模态频率分布特征" },
+      { "key": "D", "text": "接触压力云图范围" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R06",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "浴盆曲线",
+    "stem": "浴盆曲线中的早期失效期通常主要由哪类因素引起？",
+    "options": [
+      { "key": "A", "text": "长期磨损、疲劳、老化" },
+      { "key": "B", "text": "偶然失效且失效率稳定" },
+      { "key": "C", "text": "材料缺陷、设计错误、组装错误等" },
+      { "key": "D", "text": "用户主动升级软件" }
+    ],
+    "answer": ["C"]
+  },
+  {
+    "id": "R07",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "浴盆曲线",
+    "stem": "浴盆曲线中的偶然失效期通常表现为：",
+    "options": [
+      { "key": "A", "text": "失效率较低且相对稳定" },
+      { "key": "B", "text": "失效率快速上升" },
+      { "key": "C", "text": "完全没有任何失效" },
+      { "key": "D", "text": "只发生在产品设计阶段" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R08",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "耗损失效",
+    "stem": "耗损失效期失效率急速增加，主要原因通常包括：",
+    "options": [
+      { "key": "A", "text": "磨损、疲劳、老化和耗损" },
+      { "key": "B", "text": "偶然冲击载荷" },
+      { "key": "C", "text": "初期装配缺陷" },
+      { "key": "D", "text": "生产过程波动" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R09",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "强度设计理论",
+    "stem": "理解产品可靠性时，强度设计理论要求关注环境应力、产品强度以及它们的什么？",
+    "options": [
+      { "key": "A", "text": "名义安全系数" },
+      { "key": "B", "text": "分布或波动" },
+      { "key": "C", "text": "平均强度值" },
+      { "key": "D", "text": "载荷谱边界" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "R10",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "DFR",
+    "stem": "DFR 设计理念强调：",
+    "options": [
+      { "key": "A", "text": "可靠性主要靠售后维修获得" },
+      { "key": "B", "text": "可靠性是靠设计出来的" },
+      { "key": "C", "text": "可靠性只与单个样本有关" },
+      { "key": "D", "text": "可靠性不受应用环境影响" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "R11",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "短木板理论",
+    "stem": "对某产品而言不存在绝对“重要”和“非重要”部件，这主要对应哪种可靠性设计思想？",
+    "options": [
+      { "key": "A", "text": "短木板理论" },
+      { "key": "B", "text": "冗余设计理论" },
+      { "key": "C", "text": "平均寿命主导理论" },
+      { "key": "D", "text": "单点验证思路" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R12",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "加速实验",
+    "stem": "加速实验能够用更高试验强度缩短试验时间，但关键前提是：",
+    "options": [
+      { "key": "A", "text": "试验样品必须只有一个" },
+      { "key": "B", "text": "只提高温度，不考虑其他应力" },
+      { "key": "C", "text": "试验时间越短越好，失效模式可以不同" },
+      { "key": "D", "text": "加速条件下的失效机理应与市场正常条件一致" }
+    ],
+    "answer": ["D"]
+  },
+  {
+    "id": "R13",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "加速因子",
+    "stem": "加速因子可理解为：",
+    "options": [
+      { "key": "A", "text": "市场寿命 / 可靠性实验时间" },
+      { "key": "B", "text": "实验时间 / 市场寿命" },
+      { "key": "C", "text": "试验应力 / 使用应力" },
+      { "key": "D", "text": "失效样本数 / 总样本数" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R14",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "有限元基础",
+    "stem": "固体力学仿真的三大基本方程是：",
+    "options": [
+      { "key": "A", "text": "平衡方程、几何方程、本构方程" },
+      { "key": "B", "text": "动力学方程、热传导方程、电磁方程" },
+      { "key": "C", "text": "载荷方程、约束方程、输出方程" },
+      { "key": "D", "text": "质量方程、阻尼方程、刚度方程" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "R15",
+    "examId": "reliability",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "有限元流程",
+    "stem": "有限元分析中，结构离散化、单元分析、整体刚度矩阵、边界条件施加之后，通常进入哪一步？",
+    "options": [
+      { "key": "A", "text": "网格质量检查" },
+      { "key": "B", "text": "方程组求解并得到节点位移等基本解" },
+      { "key": "C", "text": "重新定义材料卡" },
+      { "key": "D", "text": "仅查看几何外形" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "R16",
+    "examId": "reliability",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "环境应力与加载因子",
+    "stem": "可靠性设计和加速实验可能涉及哪些环境或加载因子？",
+    "options": [
+      { "key": "A", "text": "温度、湿度" },
+      { "key": "B", "text": "机械应力、振动、冲击" },
+      { "key": "C", "text": "网格单元类型" },
+      { "key": "D", "text": "电流、电压" }
+    ],
+    "answer": ["A", "B", "D"]
+  },
+  {
+    "id": "R17",
+    "examId": "reliability",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "浴盆曲线阶段",
+    "stem": "浴盆曲线通常包含哪些阶段？",
+    "options": [
+      { "key": "A", "text": "早期失效期" },
+      { "key": "B", "text": "偶然失效期" },
+      { "key": "C", "text": "设计验证期" },
+      { "key": "D", "text": "耗损失效期" }
+    ],
+    "answer": ["A", "B", "D"]
+  },
+  {
+    "id": "R18",
+    "examId": "reliability",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "可靠性设计关键平台",
+    "stem": "可靠性设计的关键技术能力和数据库包括哪些？",
+    "options": [
+      { "key": "A", "text": "数字化仿真设计" },
+      { "key": "B", "text": "试验测试平台与失效分析平台" },
+      { "key": "C", "text": "应力完整性数据库" },
+      { "key": "D", "text": "仅依赖个人经验，不需要数据平台" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "R19",
+    "examId": "reliability",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "仿真与可靠性评估",
+    "stem": "用仿真支持可靠性设计时，下列哪些做法正确？",
+    "options": [
+      { "key": "A", "text": "基于失效模式选择评估方法和分析对象" },
+      { "key": "B", "text": "仿真结合实验建立判据或阈值体系" },
+      { "key": "C", "text": "仅凭单一网格结果且不做敏感性验证" },
+      { "key": "D", "text": "关注强度、疲劳、热力耦合、裂纹扩展等风险" }
+    ],
+    "answer": ["A", "B", "D"]
+  },
+  {
+    "id": "R20",
+    "examId": "reliability",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "可靠性设计与力学仿真概述",
+    "topic": "可靠性测试",
+    "stem": "常用可靠性或力学测试方法/设备包括哪些？",
+    "options": [
+      { "key": "A", "text": "单调弯曲实验" },
+      { "key": "B", "text": "板级跌落试验" },
+      { "key": "C", "text": "纳米/微米压痕测试弹性模量" },
+      { "key": "D", "text": "仅依据单一短时工况结果外推寿命" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "M01",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "耳机常见材料",
+    "stem": "耳机常见工程材料中，哪一项通常用于夹持支撑结构并具有超弹性和回弹力？",
+    "options": [
+      { "key": "A", "text": "镍钛记忆合金" },
+      { "key": "B", "text": "弹簧钢" },
+      { "key": "C", "text": "不锈钢片" },
+      { "key": "D", "text": "普通 PC 塑胶" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M02",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硅胶",
+    "stem": "硅胶主要指 PDMS 基硅橡胶，属于哪类材料？",
+    "options": [
+      { "key": "A", "text": "高分子弹性体" },
+      { "key": "B", "text": "纯金属晶体" },
+      { "key": "C", "text": "陶瓷烧结体" },
+      { "key": "D", "text": "单晶硅芯片" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M03",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硅胶应用",
+    "stem": "硅胶在耳机中的典型应用不包括下列哪一项？",
+    "options": [
+      { "key": "A", "text": "耳套、耳帽" },
+      { "key": "B", "text": "密封圈、缓冲件" },
+      { "key": "C", "text": "按钮防水塞或接口防护" },
+      { "key": "D", "text": "焊点 SAC305 合金主体" }
+    ],
+    "answer": ["D"]
+  },
+  {
+    "id": "M04",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硅胶失效",
+    "stem": "硅胶在耳机中常用于耳套、密封圈、缓冲件等，主要优势不包括下列哪项？",
+    "options": [
+      { "key": "A", "text": "低密度、密封性、阻尼性和生物相容性" },
+      { "key": "B", "text": "适合贴合与缓冲" },
+      { "key": "C", "text": "耐汗液和环境影响" },
+      { "key": "D", "text": "完全不会发生老化或压缩永久变形" }
+    ],
+    "answer": ["D"]
+  },
+  {
+    "id": "M05",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "塑胶定义",
+    "stem": "塑胶材料的主要成分通常是：",
+    "options": [
+      { "key": "A", "text": "高分子聚合物" },
+      { "key": "B", "text": "铜合金基体" },
+      { "key": "C", "text": "陶瓷粉末" },
+      { "key": "D", "text": "水基溶液" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M06",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "塑胶分类",
+    "stem": "关于热塑性塑胶与热固性塑胶，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "热塑性塑胶加热软化后可反复成型" },
+      { "key": "B", "text": "热固性塑胶受热固化后可无限次重塑" },
+      { "key": "C", "text": "二者都只能用于包装材料" },
+      { "key": "D", "text": "二者都不适合耳机结构件" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M07",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "塑胶应用",
+    "stem": "塑胶材料在耳机中的典型用途是：",
+    "options": [
+      { "key": "A", "text": "只用于焊点熔接" },
+      { "key": "B", "text": "用于外壳、支架、按钮、充电盒等结构件" },
+      { "key": "C", "text": "只用于电池内部化学反应" },
+      { "key": "D", "text": "只用于声学信号处理算法" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "M08",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "MCAL 分级",
+    "stem": "材料本构复杂度分级 MCAL-L0 到 L5 衡量的重点是：",
+    "options": [
+      { "key": "A", "text": "材料价格从低到高" },
+      { "key": "B", "text": "供应商数量多少" },
+      { "key": "C", "text": "材料卡在目标工况内覆盖真实物理行为的程度" },
+      { "key": "D", "text": "材料试验曲线数量多少" }
+    ],
+    "answer": ["C"]
+  },
+  {
+    "id": "M09",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "V&V 分级",
+    "stem": "V&V 等级在材料卡应用中主要表示：",
+    "options": [
+      { "key": "A", "text": "数据可靠度与验证充分度" },
+      { "key": "B", "text": "材料卡适用范围" },
+      { "key": "C", "text": "供应商交期等级" },
+      { "key": "D", "text": "网格质量等级" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M10",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "MCAL 与 V&V",
+    "stem": "关于 MCAL 等级和 V&V 等级的关系，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "高 MCAL 等于高可信度，不需要验证" },
+      { "key": "B", "text": "MCAL 表示复杂度/适用范围，V&V 表示数据可靠度和验证充分度" },
+      { "key": "C", "text": "V&V 表示本构复杂度" },
+      { "key": "D", "text": "二者只与试验数量有关" }
+    ],
+    "answer": ["B"]
+  },
+  {
+    "id": "M11",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "塑胶弹塑性本构",
+    "stem": "塑胶弹塑性本构建模中，应力响应可能受哪些因素影响？",
+    "options": [
+      { "key": "A", "text": "应变、应变率、温度和取向" },
+      { "key": "B", "text": "只受材料密度影响" },
+      { "key": "C", "text": "只受网格尺寸影响" },
+      { "key": "D", "text": "只受零件厚度影响" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M12",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硅胶超弹",
+    "stem": "硅胶在大变形下可发生可逆变形，工程上常用哪类本构描述？",
+    "options": [
+      { "key": "A", "text": "超弹本构" },
+      { "key": "B", "text": "刚体本构" },
+      { "key": "C", "text": "纯电路模型" },
+      { "key": "D", "text": "各向同性线弹性本构" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M13",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "Mullins 效应",
+    "stem": "Mullins 效应通常用于描述硅胶等材料在循环加载后的什么现象？",
+    "options": [
+      { "key": "A", "text": "应力软化" },
+      { "key": "B", "text": "弹性模量永久升高" },
+      { "key": "C", "text": "材料强度无限增加" },
+      { "key": "D", "text": "泊松比自动归零" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "M14",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "胶水",
+    "stem": "耳机中的胶水通常承担连接、密封、防护、减振等作用，下列哪项属于胶水常见失效形式？",
+    "options": [
+      { "key": "A", "text": "粘结强度无限提高" },
+      { "key": "B", "text": "重量自动归零" },
+      { "key": "C", "text": "声学性能永久不变" },
+      { "key": "D", "text": "脱胶、开裂、分层或密封失效" }
+    ],
+    "answer": ["D"]
+  },
+  {
+    "id": "M15",
+    "examId": "materials",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "镍钛疲劳",
+    "stem": "NiTi 疲劳 P-E-N 曲线中，P、E、N 分别代表：",
+    "options": [
+      { "key": "A", "text": "压力、弹性模量、噪声" },
+      { "key": "B", "text": "塑性、能量、节点" },
+      { "key": "C", "text": "可靠度概率、应变幅、循环寿命" },
+      { "key": "D", "text": "功率、效率、批次数" }
+    ],
+    "answer": ["C"]
+  },
+  {
+    "id": "M16",
+    "examId": "materials",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "塑胶失效",
+    "stem": "耳机塑胶件常见的力学失效模式包括哪些？",
+    "options": [
+      { "key": "A", "text": "开裂或断裂" },
+      { "key": "B", "text": "生物相容性自动提升" },
+      { "key": "C", "text": "蠕变、疲劳失效或磨损" },
+      { "key": "D", "text": "局部压溃或层间分离" }
+    ],
+    "answer": ["A", "C", "D"]
+  },
+  {
+    "id": "M17",
+    "examId": "materials",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硅胶本构",
+    "stem": "对硅胶进行力学仿真时，可能需要组合描述哪些行为？",
+    "options": [
+      { "key": "A", "text": "超弹性大变形响应" },
+      { "key": "B", "text": "Mullins 应力软化" },
+      { "key": "C", "text": "粘弹性时间或速率效应" },
+      { "key": "D", "text": "仅使用刚体模型且不需要材料参数" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "M18",
+    "examId": "materials",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "Cohesive 胶层本构",
+    "stem": "建立胶层 cohesive 简化本构时，哪些说法正确？",
+    "options": [
+      { "key": "A", "text": "搭接剪切实验可用于表征剪切承载和 Mode II 特性" },
+      { "key": "B", "text": "法向拉伸实验可用于表征开裂分离和 Mode I 特性" },
+      { "key": "C", "text": "核心参数包括初始刚度、界面强度、起始/失效分离和断裂能" },
+      { "key": "D", "text": "只要知道材料密度，就能完整预测脱胶扩展路径" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "M19",
+    "examId": "materials",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "NiTi 设计与失效",
+    "stem": "关于 NiTi 在耳机中的应用与疲劳设计，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "可用于耳挂、颈挂、弹片、夹持/转轴复位结构" },
+      { "key": "B", "text": "主要失效可包含循环相变导致残余应变累积、裂纹萌生与扩展" },
+      { "key": "C", "text": "设计上应控制应变幅、减小应力集中并考虑环境因素" },
+      { "key": "D", "text": "NiTi 疲劳寿命与应变幅无关" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "M20",
+    "examId": "materials",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "耳机常见工程材料及其力学本构",
+    "topic": "硬件材料",
+    "stem": "关于耳机硬件相关材料，哪些说法正确？",
+    "options": [
+      { "key": "A", "text": "PCB 可用叠层模量体积平均方法估算等效模量" },
+      { "key": "B", "text": "硅芯片与基板 CTE 失配可能引起翘曲和应力" },
+      { "key": "C", "text": "镀铜可用于 PCB 通孔导电和表面走线信号传输" },
+      { "key": "D", "text": "SAC305 焊点与耳机 PCB 可靠性无关" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ASM01",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "装配工艺模块",
+    "stem": "耳机常见装配工艺及仿真方法主要围绕哪三类连接或装配方式展开？",
+    "options": [
+      { "key": "A", "text": "胶粘、热熔柱、过盈" },
+      { "key": "B", "text": "螺钉锁付、卡扣、超声焊" },
+      { "key": "C", "text": "铆接、焊锡、弹片扣合" },
+      { "key": "D", "text": "螺纹连接、导热垫压接、磁吸定位" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM02",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "胶粘分类",
+    "stem": "按胶粘材料形态和装配方式区分，耳机胶粘通常可分为胶带和什么？",
+    "options": [
+      { "key": "A", "text": "点胶" },
+      { "key": "B", "text": "热熔固定" },
+      { "key": "C", "text": "过盈压装" },
+      { "key": "D", "text": "螺钉锁付" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM03",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "胶带特点",
+    "stem": "胶带作为预成型胶层用于耳机装配时，较突出的特点是：",
+    "options": [
+      { "key": "A", "text": "厚度相对稳定，适合规则区域贴附和压合" },
+      { "key": "B", "text": "必须在装配现场由液体完全成型" },
+      { "key": "C", "text": "不能用于缓冲或减振" },
+      { "key": "D", "text": "只适合金属熔焊连接" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM04",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "点胶工艺",
+    "stem": "点胶前准备中，粘接表面应重点避免哪类问题？",
+    "options": [
+      { "key": "A", "text": "油脂、灰尘、水汽等污染" },
+      { "key": "B", "text": "胶路宽度偏窄" },
+      { "key": "C", "text": "压合保压时间不足" },
+      { "key": "D", "text": "热熔柱高度偏低" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM05",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "点胶质量",
+    "stem": "点胶过程中需要重点控制胶量、胶路连续性和什么？",
+    "options": [
+      { "key": "A", "text": "点胶位置精度" },
+      { "key": "B", "text": "热熔头温度曲线" },
+      { "key": "C", "text": "过盈配合公差带" },
+      { "key": "D", "text": "螺钉预紧力矩" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM06",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "胶粘简化",
+    "stem": "若仿真只关注整体装配刚度，胶粘连接常被简化为绑定或无滑移无分离接触，这种处理的主要风险是：",
+    "options": [
+      { "key": "A", "text": "可能高估胶粘连接能力" },
+      { "key": "B", "text": "会精确反映胶层渐进开裂" },
+      { "key": "C", "text": "可自动识别所有界面失效载荷" },
+      { "key": "D", "text": "会完全消除装配残余应力" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM07",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "胶粘失效",
+    "stem": "若需要分析界面拉脱、切向分离或胶层开裂风险，较合适的建模方法是：",
+    "options": [
+      { "key": "A", "text": "Cohesive 内聚力单元或接触" },
+      { "key": "B", "text": "仅使用刚性绑定约束" },
+      { "key": "C", "text": "只将胶层替换为集中质量" },
+      { "key": "D", "text": "只提高零件整体弹性模量" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM08",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱工艺",
+    "stem": "热熔柱本质上属于哪类塑胶件固定工艺？",
+    "options": [
+      { "key": "A", "text": "局部热铆固定" },
+      { "key": "B", "text": "螺纹预紧连接" },
+      { "key": "C", "text": "胶层固化连接" },
+      { "key": "D", "text": "过盈摩擦固定" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM09",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱流程",
+    "stem": "热熔柱工艺流程通常包含加热软化、下压铆接以及哪一步来固定最终形状？",
+    "options": [
+      { "key": "A", "text": "冷却定型" },
+      { "key": "B", "text": "施加过盈量" },
+      { "key": "C", "text": "胶层完全固化" },
+      { "key": "D", "text": "螺纹预紧释放" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM10",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱作用",
+    "stem": "热熔柱在小型消费电子产品中常用于：",
+    "options": [
+      { "key": "A", "text": "塑胶件对小零件或内部结构件的永久固定" },
+      { "key": "B", "text": "金属壳体之间的可拆卸锁付" },
+      { "key": "C", "text": "胶水固化后的界面粘接固定" },
+      { "key": "D", "text": "轴孔之间的纯摩擦压装" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM11",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱仿真",
+    "stem": "在整机跌落或装配刚度分析中，将热熔柱与被固定件简化为绑定或耦合连接，主要用于模拟：",
+    "options": [
+      { "key": "A", "text": "局部永久固定效果" },
+      { "key": "B", "text": "胶水固化化学反应" },
+      { "key": "C", "text": "过盈接触压力形成过程" },
+      { "key": "D", "text": "螺纹连接的预紧松弛" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM12",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "过盈装配",
+    "stem": "过盈装配主要依靠尺寸干涉引起的弹性变形、接触压力和什么来保持连接？",
+    "options": [
+      { "key": "A", "text": "摩擦力" },
+      { "key": "B", "text": "胶层固化收缩" },
+      { "key": "C", "text": "螺钉轴向预紧力" },
+      { "key": "D", "text": "热熔铆头翻边" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM13",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "过盈设计",
+    "stem": "过盈量设计时，应重点关注哪些因素之间的平衡？",
+    "options": [
+      { "key": "A", "text": "公差带、接触压力、装配力和局部应力" },
+      { "key": "B", "text": "胶水固化时间和胶路宽度" },
+      { "key": "C", "text": "热熔温度和铆头直径" },
+      { "key": "D", "text": "螺钉规格和锁付扭矩" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM14",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "过盈仿真",
+    "stem": "保留初始几何干涉进行过盈仿真时，通常在第一个分析步中逐步消除初始过盈并转化为：",
+    "options": [
+      { "key": "A", "text": "接触压力" },
+      { "key": "B", "text": "胶层断裂能" },
+      { "key": "C", "text": "螺钉预紧力" },
+      { "key": "D", "text": "热熔柱铆头高度" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM15",
+    "examId": "assembly-process-simulation",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "通用接触",
+    "stem": "通用接触中用于定义初始接触状态、自动识别或指定过盈量的功能是：",
+    "options": [
+      { "key": "A", "text": "Contact Initialization" },
+      { "key": "B", "text": "Viewport Background" },
+      { "key": "C", "text": "Job History" },
+      { "key": "D", "text": "Query Probe" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ASM16",
+    "examId": "assembly-process-simulation",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "胶粘作用",
+    "stem": "胶粘工艺在耳机结构中常承担哪些作用？",
+    "options": [
+      { "key": "A", "text": "结构粘接" },
+      { "key": "B", "text": "密封防水" },
+      { "key": "C", "text": "电子件固定和局部防护" },
+      { "key": "D", "text": "直接形成过盈配合接触压力" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ASM17",
+    "examId": "assembly-process-simulation",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "点胶缺陷",
+    "stem": "点胶过程常见的质量风险包括哪些？",
+    "options": [
+      { "key": "A", "text": "缺胶或断胶" },
+      { "key": "B", "text": "溢胶或拉丝" },
+      { "key": "C", "text": "气泡或位置偏差" },
+      { "key": "D", "text": "热熔柱铆头高度偏差" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ASM18",
+    "examId": "assembly-process-simulation",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱检查",
+    "stem": "热熔柱成型后通常需要关注哪些检查项？",
+    "options": [
+      { "key": "A", "text": "铆头外观和压紧状态" },
+      { "key": "B", "text": "零件是否松动" },
+      { "key": "C", "text": "是否偏心、开裂、拉脱或固定不足" },
+      { "key": "D", "text": "螺钉锁付扭矩是否达标" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ASM19",
+    "examId": "assembly-process-simulation",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "热熔柱等效刚度",
+    "stem": "将热熔柱等效为连接刚度时，刚度取值可以来自哪些方式？",
+    "options": [
+      { "key": "A", "text": "单柱拉脱或剪切实验的力—位移曲线" },
+      { "key": "B", "text": "单个热熔柱精细模型反推刚度" },
+      { "key": "C", "text": "快速评估阶段按材料模量和有效截面积估算" },
+      { "key": "D", "text": "直接把材料弹性模量当作连接刚度使用" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ASM20",
+    "examId": "assembly-process-simulation",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "耳机常见装配工艺及仿真方法",
+    "topic": "过盈仿真方法",
+    "stem": "关于过盈装配仿真，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "可保留干涉几何并自动识别过盈量" },
+      { "key": "B", "text": "可忽略初始几何并直接指定目标过盈量" },
+      { "key": "C", "text": "通用接触也可通过初始接触状态处理过盈" },
+      { "key": "D", "text": "过盈量越大越好，不需要关注装配力" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "FM01",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "模型搭建流程",
+    "stem": "有限元仿真模型搭建通常包含材料属性与网格划分、部件装配、分析步、相互作用以及什么设置？",
+    "options": [
+      { "key": "A", "text": "边界条件" },
+      { "key": "B", "text": "结果云图" },
+      { "key": "C", "text": "节点编号" },
+      { "key": "D", "text": "作业提交方式" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM02",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "材料参数",
+    "stem": "常见金属、塑胶结构件在仿真中通常可采用哪类材料设置？",
+    "options": [
+      { "key": "A", "text": "弹塑性材料" },
+      { "key": "B", "text": "超弹性材料" },
+      { "key": "C", "text": "集中质量属性" },
+      { "key": "D", "text": "刚体参考点" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM03",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "密度设置",
+    "stem": "材料密度对静力学分析影响通常不大，但对哪类分析必须重点设置？",
+    "options": [
+      { "key": "A", "text": "动力学分析" },
+      { "key": "B", "text": "静态小变形分析" },
+      { "key": "C", "text": "材料参数拟合" },
+      { "key": "D", "text": "后处理云图显示" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM04",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "截面分配",
+    "stem": "在 Abaqus 中给部件赋予截面属性后，模型显示通常会变为哪种颜色以提示已分配？",
+    "options": [
+      { "key": "A", "text": "绿色" },
+      { "key": "B", "text": "透明" },
+      { "key": "C", "text": "黑白闪烁" },
+      { "key": "D", "text": "不可见" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM05",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "刚体类型",
+    "stem": "用有限元网格描述刚体、有节点和单元但不允许变形的刚体类型是：",
+    "options": [
+      { "key": "A", "text": "离散刚体" },
+      { "key": "B", "text": "解析刚体" },
+      { "key": "C", "text": "超弹性体" },
+      { "key": "D", "text": "粘弹性体" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM06",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "部件装配",
+    "stem": "即使所有部件来自同一个 STP 文件，模型装配阶段仍可能需要检查和处理什么问题？",
+    "options": [
+      { "key": "A", "text": "部件间干涉或相对位置问题" },
+      { "key": "B", "text": "网格阶次不一致" },
+      { "key": "C", "text": "材料密度缺失" },
+      { "key": "D", "text": "分析步时间过长" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM07",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "分析步类型",
+    "stem": "跌落、落锤等工况通常更适合使用哪类分析步？",
+    "options": [
+      { "key": "A", "text": "显式动力学" },
+      { "key": "B", "text": "隐式静力学" },
+      { "key": "C", "text": "线性扰动频率" },
+      { "key": "D", "text": "稳态热分析" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM08",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "分析步类型",
+    "stem": "挂重、拉拔等准静态工况通常更适合使用哪类分析步？",
+    "options": [
+      { "key": "A", "text": "隐式静力学" },
+      { "key": "B", "text": "显式冲击分析" },
+      { "key": "C", "text": "频率提取分析" },
+      { "key": "D", "text": "稳态热分析" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM09",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "自动稳定",
+    "stem": "隐式静力学中自动稳定的主要作用是施加虚拟阻尼以抑制什么？",
+    "options": [
+      { "key": "A", "text": "数值振荡" },
+      { "key": "B", "text": "材料塑性定义" },
+      { "key": "C", "text": "网格划分数量" },
+      { "key": "D", "text": "结果输出频率" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM10",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "场变量输出",
+    "stem": "场变量输出中常用的位移变量标识是：",
+    "options": [
+      { "key": "A", "text": "U" },
+      { "key": "B", "text": "RGB" },
+      { "key": "C", "text": "PDF" },
+      { "key": "D", "text": "ID" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM11",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "接触属性",
+    "stem": "创建接触属性时，切向行为中的罚函数摩擦通常需要输入什么参数？",
+    "options": [
+      { "key": "A", "text": "摩擦系数" },
+      { "key": "B", "text": "法向接触刚度" },
+      { "key": "C", "text": "接触厚度" },
+      { "key": "D", "text": "阻尼系数" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM12",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "接触法向行为",
+    "stem": "法向接触中常用的 Hard Contact 主要用于描述接触面的哪类行为？",
+    "options": [
+      { "key": "A", "text": "法向不可穿透并允许必要时分离" },
+      { "key": "B", "text": "节点自动删除" },
+      { "key": "C", "text": "材料密度清零" },
+      { "key": "D", "text": "载荷方向随机变化" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM13",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "绑定约束",
+    "stem": "理想焊接、胶粘等两个区域完全无相对运动的连接，常用哪类相互作用表示？",
+    "options": [
+      { "key": "A", "text": "Tie 绑定" },
+      { "key": "B", "text": "罚函数摩擦" },
+      { "key": "C", "text": "Hard Contact" },
+      { "key": "D", "text": "Surface-to-surface 接触" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM14",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "耦合约束",
+    "stem": "耦合约束用于把一个点的运动或力分配给一个区域时，该点通常可以选择参考点或什么？",
+    "options": [
+      { "key": "A", "text": "已知点或点集" },
+      { "key": "B", "text": "接触属性" },
+      { "key": "C", "text": "材料截面" },
+      { "key": "D", "text": "输出变量" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM15",
+    "examId": "simulation-modeling",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型搭建",
+    "topic": "边界条件",
+    "stem": "位移加载过程中需要斟酌约束形式，主要是为了避免过刚或什么问题？",
+    "options": [
+      { "key": "A", "text": "错误加载" },
+      { "key": "B", "text": "收敛速度变快" },
+      { "key": "C", "text": "接触对数量减少" },
+      { "key": "D", "text": "输出变量过多" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "FM16",
+    "examId": "simulation-modeling",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "仿真模型搭建",
+    "topic": "材料与网格",
+    "stem": "材料属性与网格划分阶段通常需要完成哪些工作？",
+    "options": [
+      { "key": "A", "text": "设置材料参数" },
+      { "key": "B", "text": "创建并分配截面属性" },
+      { "key": "C", "text": "分配单元种类和阶次" },
+      { "key": "D", "text": "提交求解作业" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "FM17",
+    "examId": "simulation-modeling",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "仿真模型搭建",
+    "topic": "场变量",
+    "stem": "场变量输出中常见的结果变量包括哪些？",
+    "options": [
+      { "key": "A", "text": "应力 S 或 Mises" },
+      { "key": "B", "text": "位移 U" },
+      { "key": "C", "text": "接触相关 CSTRESS 或 CFORCE" },
+      { "key": "D", "text": "载荷幅值曲线" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "FM18",
+    "examId": "simulation-modeling",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "仿真模型搭建",
+    "topic": "相互作用",
+    "stem": "相互作用设置中常见的对象或方法包括哪些？",
+    "options": [
+      { "key": "A", "text": "Surface 表面" },
+      { "key": "B", "text": "接触属性和通用接触" },
+      { "key": "C", "text": "Tie 绑定或 Coupling 耦合" },
+      { "key": "D", "text": "结果输出频率" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "FM19",
+    "examId": "simulation-modeling",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "仿真模型搭建",
+    "topic": "载荷设置",
+    "stem": "关于载荷和边界条件设置，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "Load 不能在 initial 分析步中加载" },
+      { "key": "B", "text": "集中力载荷施加点通常可为耦合点或刚体参考点" },
+      { "key": "C", "text": "动力学载荷通常需要设置加载曲线" },
+      { "key": "D", "text": "位移和力的方向不需要检查" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "FM20",
+    "examId": "simulation-modeling",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "仿真模型搭建",
+    "topic": "建模质量控制",
+    "stem": "关于仿真模型搭建质量控制，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "分析步命名应清晰，避免多个分析步混淆" },
+      { "key": "B", "text": "自动稳定阻尼应尽可能低，避免影响结果精度" },
+      { "key": "C", "text": "网格质量检查可辅助选择合适增量步" },
+      { "key": "D", "text": "所有接触都可随意设为绑定且不会影响结果" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ABQ01",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "后处理目标",
+    "stem": "Abaqus 仿真结果后处理的核心目标包括校核结果可信性、提炼工程结论以及什么？",
+    "options": [
+      { "key": "A", "text": "支撑设计迭代" },
+      { "key": "B", "text": "替代所有试验" },
+      { "key": "C", "text": "自动生成材料卡" },
+      { "key": "D", "text": "自动修复收敛问题" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ02",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "作业诊断",
+    "stem": "Abaqus 中用于查看作业历史、警告和收敛问题原因的功能是：",
+    "options": [
+      { "key": "A", "text": "Job Diagnostics" },
+      { "key": "B", "text": "Mirror/Pattern" },
+      { "key": "C", "text": "Viewport Background" },
+      { "key": "D", "text": "ODB Display Options" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ03",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "能量平衡",
+    "stem": "Abaqus/Explicit 分析中，若总能量明显不恒定，通常提示：",
+    "options": [
+      { "key": "A", "text": "解答可能不再稳定" },
+      { "key": "B", "text": "结果必然完全正确" },
+      { "key": "C", "text": "模型不需要检查" },
+      { "key": "D", "text": "网格自动收敛" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ04",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "准静态能量",
+    "stem": "准静态分析中，外力做功 ALLWK 通常应与哪项能量近似相等？",
+    "options": [
+      { "key": "A", "text": "内能 ALLIE" },
+      { "key": "B", "text": "动能 ALLKE" },
+      { "key": "C", "text": "粘性耗散能 ALLVD" },
+      { "key": "D", "text": "人工应变能 ALLAE" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ05",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "伪应变能",
+    "stem": "一阶减缩积分单元可能出现沙漏问题，伪应变能 ALLAE 可用于辅助判断哪类问题？",
+    "options": [
+      { "key": "A", "text": "沙漏变形控制是否合理" },
+      { "key": "B", "text": "接触穿透是否过大" },
+      { "key": "C", "text": "输出帧数是否足够" },
+      { "key": "D", "text": "载荷方向是否反向" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ06",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "网格收敛",
+    "stem": "当继续细化网格仅引起关键结果的微小变化时，通常可认为：",
+    "options": [
+      { "key": "A", "text": "网格基本收敛" },
+      { "key": "B", "text": "材料参数失效" },
+      { "key": "C", "text": "作业一定失败" },
+      { "key": "D", "text": "不需要看结果" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ07",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "变量输出",
+    "stem": "在结果读取中，选择场输出变量通常通过 Result 菜单下的哪项完成？",
+    "options": [
+      { "key": "A", "text": "Field Output / Primary Variable" },
+      { "key": "B", "text": "History Output" },
+      { "key": "C", "text": "ODB Display Options" },
+      { "key": "D", "text": "Contour Options" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ08",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "云图显示",
+    "stem": "云图显示的主要作用是直观识别位移、应力等结果的分布特征和什么？",
+    "options": [
+      { "key": "A", "text": "高低变化区域" },
+      { "key": "B", "text": "输出变量名称" },
+      { "key": "C", "text": "材料截面分组" },
+      { "key": "D", "text": "网格划分方法" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ09",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "符号图",
+    "stem": "符号图通常以箭头形式标注结果，尤其适用于分析哪类具有方向性的结果特征？",
+    "options": [
+      { "key": "A", "text": "位移或主应力" },
+      { "key": "B", "text": "等效塑性应变云图" },
+      { "key": "C", "text": "材料属性表格" },
+      { "key": "D", "text": "显示组名称" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ10",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "视图剖切",
+    "stem": "对于复杂结构和局部问题，视图剖切常用于观察结构内部的应力、应变分布以及什么？",
+    "options": [
+      { "key": "A", "text": "接触状态" },
+      { "key": "B", "text": "载荷幅值曲线" },
+      { "key": "C", "text": "材料参数来源" },
+      { "key": "D", "text": "作业提交路径" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ11",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "动画类型",
+    "stem": "能够按帧顺序显示结果随时间或增量变化的动画类型是：",
+    "options": [
+      { "key": "A", "text": "Time History" },
+      { "key": "B", "text": "Scale Factor" },
+      { "key": "C", "text": "Harmonic" },
+      { "key": "D", "text": "Static Cover" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ12",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "显示组",
+    "stem": "显示组的主要作用是从完整模型中筛选出什么区域？",
+    "options": [
+      { "key": "A", "text": "关注区域" },
+      { "key": "B", "text": "完整模型区域" },
+      { "key": "C", "text": "边界条件区域" },
+      { "key": "D", "text": "非分析区域" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ13",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "探针",
+    "stem": "用于精确读取某一节点或单元数值结果的工具是：",
+    "options": [
+      { "key": "A", "text": "Probe Values" },
+      { "key": "B", "text": "Mirror Pattern" },
+      { "key": "C", "text": "Full Screen" },
+      { "key": "D", "text": "Back Button" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ14",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "节点应力",
+    "stem": "读取节点应力时需要注意，节点应力通常由单元积分点应力外插和平均得到，因此：",
+    "options": [
+      { "key": "A", "text": "读取方便但不一定精确" },
+      { "key": "B", "text": "永远等同于真实峰值" },
+      { "key": "C", "text": "不需要区分位置" },
+      { "key": "D", "text": "可直接替代积分点应力" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ15",
+    "examId": "abaqus-postprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "XY 数据",
+    "stem": "XY 数据主要用于趋势评估和定量分析，例如描述变量随时间或什么的变化规律？",
+    "options": [
+      { "key": "A", "text": "空间位置" },
+      { "key": "B", "text": "材料名称" },
+      { "key": "C", "text": "网格编号" },
+      { "key": "D", "text": "载荷类型名称" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "ABQ16",
+    "examId": "abaqus-postprocessing",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "作业检查",
+    "stem": "结果后处理中的作业检查通常包括哪些内容？",
+    "options": [
+      { "key": "A", "text": "作业诊断" },
+      { "key": "B", "text": "能量平衡" },
+      { "key": "C", "text": "网格收敛" },
+      { "key": "D", "text": "材料库命名" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ABQ17",
+    "examId": "abaqus-postprocessing",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "图形显示",
+    "stem": "Abaqus 后处理中常见的图形显示方式包括哪些？",
+    "options": [
+      { "key": "A", "text": "云图" },
+      { "key": "B", "text": "符号图" },
+      { "key": "C", "text": "剖切和动画" },
+      { "key": "D", "text": "载荷定义表" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ABQ18",
+    "examId": "abaqus-postprocessing",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "参数提取",
+    "stem": "结果参数提取常用的方法包括哪些？",
+    "options": [
+      { "key": "A", "text": "探针读取" },
+      { "key": "B", "text": "XY 数据" },
+      { "key": "C", "text": "路径提取和最大值包络" },
+      { "key": "D", "text": "删除所有历史输出" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ABQ19",
+    "examId": "abaqus-postprocessing",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "报告表达",
+    "stem": "仿真报告输出应清楚描述哪些内容？",
+    "options": [
+      { "key": "A", "text": "背景和工况" },
+      { "key": "B", "text": "简化和假设" },
+      { "key": "C", "text": "指标阈值、结论和建议" },
+      { "key": "D", "text": "只放截图且不写判断" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "ABQ20",
+    "examId": "abaqus-postprocessing",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "基于 ABAQUS 的仿真结果后处理及分析",
+    "topic": "结果可信性",
+    "stem": "关于仿真结果可信性判断，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "应结合诊断信息、警告和能量平衡判断结果可靠性" },
+      { "key": "B", "text": "关键位置应尽量从云图观察推进到定量读取" },
+      { "key": "C", "text": "网格收敛对关键结果可信度有重要影响" },
+      { "key": "D", "text": "只看单帧云图即可跳过诊断检查" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "MESH01",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "STP 导入流程",
+    "stem": "仿真模型网格前处理 SOP 中，STP 模型调整及导入阶段的主线是：",
+    "options": [
+      { "key": "A", "text": "Creo 导入并对齐坐标、筛选预处理几何、导出新 STP 供仿真导入" },
+      { "key": "B", "text": "Abaqus 中完成材料标定、载荷标定和后处理报告输出" },
+      { "key": "C", "text": "先完成网格质量检查，再回到 Creo 中补充装配约束" },
+      { "key": "D", "text": "直接把原始 STP 导入求解器并保留全部显示状态" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH02",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "Creo 导入",
+    "stem": "在 Creo 中先新建装配再导入 STP，而不是直接打开 STP，主要是为了：",
+    "options": [
+      { "key": "A", "text": "保留模板参考基准和标准视图方向，便于后续整体坐标对齐" },
+      { "key": "B", "text": "自动完成 Abaqus 网格布种并生成单元质量报告" },
+      { "key": "C", "text": "让所有零件默认转为壳单元，减少后续导入设置" },
+      { "key": "D", "text": "在导入阶段直接写入最终边界条件和接触属性" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH03",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "导入破面处理",
+    "stem": "复杂 STP 导入时如果关键部件出现破面，较合理的处理方式是：",
+    "options": [
+      { "key": "A", "text": "调整导入设置尝试修复，必要时让需求方重新提供或单独导出关键部件" },
+      { "key": "B", "text": "把破面部件统一作为刚体处理，再用同一网格尺寸划分" },
+      { "key": "C", "text": "先提交一次计算，通过求解报错判断破面对结果的影响" },
+      { "key": "D", "text": "在模型树中隐藏破面部件，并沿用原装配关系继续前处理" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH04",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "单位制",
+    "stem": "Creo 本地默认模板单位可能为英寸制，前处理时提前调整到 mmns 或 mmks，主要是为了：",
+    "options": [
+      { "key": "A", "text": "避免处理几何和截面位置时尺寸跨度不合适，保证后续导入尺度一致" },
+      { "key": "B", "text": "让导出的 STEP 自动包含材料本构曲线和失效判据" },
+      { "key": "C", "text": "把所有壳体厚度统一转换为实体单元厚度" },
+      { "key": "D", "text": "使 Abaqus 默认采用结构化六面体网格控制" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH05",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "截面视图",
+    "stem": "Creo 中创建截面视图在部件筛选阶段的主要作用是：",
+    "options": [
+      { "key": "A", "text": "观察内部结构，辅助判断需要保留、隐藏或检查干涉的部件" },
+      { "key": "B", "text": "自动识别所有材料牌号，并生成材料卡" },
+      { "key": "C", "text": "把装配体中的全部曲面统一转成实体" },
+      { "key": "D", "text": "替代后续网格质量检查中的形状指标判断" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH06",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "部件筛选",
+    "stem": "筛选不加入仿真模型的元件时，先隐藏而不是直接删除的主要原因是：",
+    "options": [
+      { "key": "A", "text": "隐藏状态可用于导出时排除元件，同时保留返工和复查余地" },
+      { "key": "B", "text": "隐藏后的元件会自动参与接触定义，删除后则需要手动创建接触" },
+      { "key": "C", "text": "隐藏可以提高材料试验数据的可信度，删除会降低 V&V 等级" },
+      { "key": "D", "text": "隐藏会把实体自动转换为壳体，便于统一划分壳单元" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH07",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "几何移除",
+    "stem": "几何清理中使用“移除特征”或“替换面”处理圆角、小孔等细节，主要目的是：",
+    "options": [
+      { "key": "A", "text": "减少不必要细节对网格质量、网格数量和计算效率的影响" },
+      { "key": "B", "text": "保留全部工艺圆角，以便后处理时自动识别最大应力" },
+      { "key": "C", "text": "把复杂实体都切分成规则六面体可扫略区域" },
+      { "key": "D", "text": "让导出的 STP 文件直接包含边界载荷方向" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH08",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "STEP 导出",
+    "stem": "导出新 STP 时设置为 214 协议，一个重要考虑是：",
+    "options": [
+      { "key": "A", "text": "继承部件颜色信息，便于在后续软件中区分结构区域" },
+      { "key": "B", "text": "把所有隐藏图元强制导出，避免漏掉原始结构" },
+      { "key": "C", "text": "将网格单元类型一并写入 STEP 文件" },
+      { "key": "D", "text": "把面组拆分为大量壳体部件以提高可编辑性" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH09",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "Abaqus 导入",
+    "stem": "Abaqus 导入 STEP 时，如果需要基于 STP 单位制自动转换尺寸，应重点检查哪个设置？",
+    "options": [
+      { "key": "A", "text": "Import Part 的 Scale 栏中是否勾选转换" },
+      { "key": "B", "text": "Mesh Control 中是否选择中轴算法" },
+      { "key": "C", "text": "Field Output 中是否选择 Primary Variable" },
+      { "key": "D", "text": "Job Diagnostics 中是否启用能量平衡检查" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH10",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "显示管理",
+    "stem": "Abaqus Part 模块中的 Display Group 对几何清理的价值主要是：",
+    "options": [
+      { "key": "A", "text": "按选择对象单独显示、隐藏或反转显示，便于定位和处理局部特征" },
+      { "key": "B", "text": "将当前显示的几何自动合并为一个可扫略实体" },
+      { "key": "C", "text": "根据相邻面夹角自动推断局部网格控制" },
+      { "key": "D", "text": "在不布种的情况下直接生成满足质量要求的体网格" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH11",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "替换面",
+    "stem": "Abaqus 中“替换面”操作在几何清理中使用频率较高，常用于：",
+    "options": [
+      { "key": "A", "text": "移除圆角、小孔洞或多余特征，并尝试通过相邻面延伸封闭几何" },
+      { "key": "B", "text": "把实体网格转换为壳网格，并自动保留节点编号" },
+      { "key": "C", "text": "为每个零件批量创建材料截面和装配约束" },
+      { "key": "D", "text": "把局部布种尺寸反向映射回 Creo 装配体" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH12",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "实体切分",
+    "stem": "实体切分更适合用于哪类前处理目标？",
+    "options": [
+      { "key": "A", "text": "将较规则的实体划分成更规则区域，以便尝试六面体网格" },
+      { "key": "B", "text": "提高复杂四面体网格的自动收敛性，且不需要检查形状指标" },
+      { "key": "C", "text": "把所有自由边缝合为实体后直接生成材料参数" },
+      { "key": "D", "text": "替代壳体中面抽取并保持原实体厚度不变" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH13",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "壳体操作",
+    "stem": "关于实体与壳体的转换，下列理解正确的是：",
+    "options": [
+      { "key": "A", "text": "薄壳或钣金结构可考虑生成壳体，中面壳常由偏移面等方式处理" },
+      { "key": "B", "text": "封闭壳体转实体后不需要再检查自由边或几何有效性" },
+      { "key": "C", "text": "实体删面后仍保持实体状态，后续可以直接划分体网格" },
+      { "key": "D", "text": "面几何导入后必须全部转成实体才能进入 Mesh 模块" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH14",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "小边小面修理",
+    "stem": "修理小边、小面通常是为了减少哪类网格问题？",
+    "options": [
+      { "key": "A", "text": "由细长或碎小几何导致的扁平、细长单元和局部质量问题" },
+      { "key": "B", "text": "材料卡中应变率曲线不足导致的本构拟合问题" },
+      { "key": "C", "text": "后处理云图变量选择不一致导致的显示问题" },
+      { "key": "D", "text": "接触属性中摩擦系数取值偏低导致的收敛问题" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH15",
+    "examId": "mesh-preprocessing",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "仿真模型网格前处理",
+    "topic": "失效几何处理",
+    "stem": "当几何编辑导致部件失效时，较稳妥的处理思路是：",
+    "options": [
+      { "key": "A", "text": "优先定位并抑制或清理导致失效的操作，必要时短流程内忽略失效后继续修复" },
+      { "key": "B", "text": "保持失效状态完成所有网格划分，因为求解器会自动跳过异常区域" },
+      { "key": "C", "text": "先创建虚拟拓扑覆盖失效面，再把几何有效性检查延后到提交作业后" },
+      { "key": "D", "text": "将失效部件转为显示组集合，后续用局部布种消除失效标识" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "MESH16",
+    "examId": "mesh-preprocessing",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "仿真模型网格前处理",
+    "topic": "导入前准备",
+    "stem": "STP 模型进入 Abaqus 前，必要的准备工作包括哪些？",
+    "options": [
+      { "key": "A", "text": "对齐装配坐标系" },
+      { "key": "B", "text": "筛选并隐藏不参与仿真的元件" },
+      { "key": "C", "text": "检查单位制和关键几何状态" },
+      { "key": "D", "text": "完成最终求解步和后处理模板" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "MESH17",
+    "examId": "mesh-preprocessing",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "仿真模型网格前处理",
+    "topic": "虚拟拓扑",
+    "stem": "关于虚拟拓扑的使用，下列说法正确的是：",
+    "options": [
+      { "key": "A", "text": "它可在不直接修改几何的前提下隐藏特征线或特征点" },
+      { "key": "B", "text": "自动创建时应结合预览，避免隐藏关键轮廓特征" },
+      { "key": "C", "text": "它常放在网格划分前较后阶段使用，必要时可修复局部特征" },
+      { "key": "D", "text": "它会永久改变实体质量属性，因此导入阶段应优先全局应用" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "MESH18",
+    "examId": "mesh-preprocessing",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "仿真模型网格前处理",
+    "topic": "网格控制与布种",
+    "stem": "设置网格控制和布种时，哪些做法更合理？",
+    "options": [
+      { "key": "A", "text": "复杂实体可采用四面体网格并适当调整表面结构化" },
+      { "key": "B", "text": "全局布种尺寸应结合部件尺寸、厚度和计算效率确定" },
+      { "key": "C", "text": "高风险或局部细节区域可通过局部布种加密" },
+      { "key": "D", "text": "所有边统一设为相同数量布种即可替代网格质量检查" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "MESH19",
+    "examId": "mesh-preprocessing",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "仿真模型网格前处理",
+    "topic": "网格质量",
+    "stem": "网格质量检查中，应重点关注哪些判断？",
+    "options": [
+      { "key": "A", "text": "扁平或细长单元可能需要回到局部几何处理" },
+      { "key": "B", "text": "Errors 网格通常会导致计算无法进行" },
+      { "key": "C", "text": "接触或局部变形较大时，少量 warning 的影响也应更谨慎评估" },
+      { "key": "D", "text": "Warning 数量不影响任何结果，可作为模型通过的充分条件" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "MESH20",
+    "examId": "mesh-preprocessing",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "仿真模型网格前处理",
+    "topic": "常用流程",
+    "stem": "复杂实体的网格前处理流程中，哪些步骤组合更合理？",
+    "options": [
+      { "key": "A", "text": "先切除多余几何区域，再分析并清理细小特征" },
+      { "key": "B", "text": "结合全局修理小边、小面和虚拟拓扑改善可划分性" },
+      { "key": "C", "text": "网格质量不足时回到局部处理或局部布种迭代" },
+      { "key": "D", "text": "先全局自动虚拟拓扑并锁定结果，再跳过关键边复查" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "EV01",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "阅读范围",
+    "stem": "耳机结构爆炸图标注版的阅读范围主要聚焦于：",
+    "options": [
+      { "key": "A", "text": "结构件名称、材料、固定方式、装配关系和点胶区域" },
+      { "key": "B", "text": "声学器件参数、调音曲线和电路控制逻辑" },
+      { "key": "C", "text": "模具结构、装配治具和量产检验方法" },
+      { "key": "D", "text": "后期失效分析、可靠性测试计划和维修拆解策略" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV02",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 总体",
+    "stem": "UCS 整机拆件中，组成主结构的三类组件是：",
+    "options": [
+      { "key": "A", "text": "耳机芯、耳挂、电池盖" },
+      { "key": "B", "text": "喇叭组件、连接桥、充电盒" },
+      { "key": "C", "text": "后挂组件、板仓、左耳挂" },
+      { "key": "D", "text": "电池仓、天线钣金、Type-C 组件" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV03",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 耳挂",
+    "stem": "UCS 耳挂组件的典型结构材料组合是：",
+    "options": [
+      { "key": "A", "text": "40A 硅胶包覆，内含 NiTi 钛丝" },
+      { "key": "B", "text": "PPO850 上盖配不锈钢蚀刻网" },
+      { "key": "C", "text": "锌合金压铸头配 7pin 端子芯线" },
+      { "key": "D", "text": "PPO830 硅胶件配天线钣金支架" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV04",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 固定方式",
+    "stem": "UCS 耳挂与仓体连接处的固定和密封方式主要是：",
+    "options": [
+      { "key": "A", "text": "倒扣预固定并配合点胶" },
+      { "key": "B", "text": "螺钉锁付并配合金属垫片预紧" },
+      { "key": "C", "text": "磁铁吸附并配合天线支架限位" },
+      { "key": "D", "text": "7pin 端子扣合并配合压铸头止位" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV05",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 耳机芯",
+    "stem": "UCS 耳机芯组件中，低音单元与喇叭支架周圈通常采用哪类方式实现密封固定？",
+    "options": [
+      { "key": "A", "text": "UV 密封" },
+      { "key": "B", "text": "热压铆接" },
+      { "key": "C", "text": "螺纹预紧" },
+      { "key": "D", "text": "金属卡片压紧" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV06",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "THK 总体",
+    "stem": "THK 整机中，喇叭组件与电池仓组件之间主要通过什么结构连接？",
+    "options": [
+      { "key": "A", "text": "耳挂连接桥" },
+      { "key": "B", "text": "后挂压铸头" },
+      { "key": "C", "text": "导声管组件" },
+      { "key": "D", "text": "电池仓转接板" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV07",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "THK 喇叭组件",
+    "stem": "THK 喇叭组件中，出声钢网通常如何装配到喇叭上盖？",
+    "options": [
+      { "key": "A", "text": "内装至喇叭上盖，并由双面胶密封" },
+      { "key": "B", "text": "外装至电池仓中壳，并由 UV 胶槽定位" },
+      { "key": "C", "text": "压入后挂端部，并由装饰件压住" },
+      { "key": "D", "text": "焊接到软硬结合板，并由 BTB 扣合保护" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV08",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "THK 电池仓",
+    "stem": "THK 电池仓组件中，磁铁和充电铜柱装入中壳后的加固方式是：",
+    "options": [
+      { "key": "A", "text": "点 UV 加固" },
+      { "key": "B", "text": "侧壁热熔胶合壳" },
+      { "key": "C", "text": "硅胶包覆成型" },
+      { "key": "D", "text": "倒扣预固定" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV09",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "BOS 耳机芯",
+    "stem": "BOS 耳机芯在声学件识别上具有哪种组合特征？",
+    "options": [
+      { "key": "A", "text": "骨导振子 + 气导喇叭" },
+      { "key": "B", "text": "低音气导 + φ5.5 高音气导" },
+      { "key": "C", "text": "φ11.8×8.9mm 扬声器 + 60mAh 电池" },
+      { "key": "D", "text": "后 MIC 硅胶套 + 电池泡棉" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV10",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "BOS 右耳挂",
+    "stem": "BOS 右耳挂中 Type-C 组件的点胶/胶接区域描述正确的是：",
+    "options": [
+      { "key": "A", "text": "外侧跑道热熔胶，并在内腔 UV 补强" },
+      { "key": "B", "text": "0.35×0.5mm U 型 UV 胶槽" },
+      { "key": "C", "text": "后挂穿线孔卡扣后点硅胶密封" },
+      { "key": "D", "text": "喇叭与中壳周圈点 UV 胶" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV11",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "BOS 左耳挂",
+    "stem": "BOS 左耳挂/电池仓侧主要容纳的是：",
+    "options": [
+      { "key": "A", "text": "电池、电池仓转接板和后挂连接端子" },
+      { "key": "B", "text": "Type-C 组件、音量按键和天线支架" },
+      { "key": "C", "text": "骨导振子、气导喇叭和导声管网" },
+      { "key": "D", "text": "出声钢网、前后 MIC 纱网和喇叭上盖" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV12",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "BOS 后挂",
+    "stem": "BOS 后挂组件中，后挂钛丝、压铸头和芯线的材料/形态组合更接近：",
+    "options": [
+      { "key": "A", "text": "φ1.10mm NiTi 钛丝、锌合金压铸头、7pin 扣合端子芯线" },
+      { "key": "B", "text": "40A 液态硅胶、PPO830 上盖、BTB 扣合软硬结合板" },
+      { "key": "C", "text": "SUS304 蚀刻网、降噪泡棉、MIC FPC 焊点" },
+      { "key": "D", "text": "透明 PC1414 支架、双面胶出声网、UV 密封单元" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV13",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 电池盖",
+    "stem": "UCS 电池盖组件的描述中，NCVM 更接近用于说明哪一类信息？",
+    "options": [
+      { "key": "A", "text": "塑胶内盖/外盖中的外观处理特征" },
+      { "key": "B", "text": "耳挂主钛丝与辅助钛丝的直径差异" },
+      { "key": "C", "text": "FPC 穿墙处的外壁点胶路径" },
+      { "key": "D", "text": "后挂芯线进入压铸头线槽的方式" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV14",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "点胶区域理解",
+    "stem": "学习爆炸图中的点胶/胶接区域时，最应优先建立的工程理解是：",
+    "options": [
+      { "key": "A", "text": "胶接区域往往同时关系到固定、密封和局部可靠性风险" },
+      { "key": "B", "text": "所有胶接区域都可视作相同材料和相同厚度的连续胶层" },
+      { "key": "C", "text": "点胶位置只用于识别装配先后顺序，不影响结构分析关注点" },
+      { "key": "D", "text": "胶接区域可替代对卡扣、热熔和过盈关系的阅读" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV15",
+    "examId": "exploded-view",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "THK 结构闭环",
+    "stem": "THK 总体结构中，耳挂两端与壳体形成结构闭环的方式是：",
+    "options": [
+      { "key": "A", "text": "通过卡扣和胶接连接，喇叭侧与电池侧主胶路以热熔胶为主" },
+      { "key": "B", "text": "通过 7pin 端子和后挂压铸头止位连接，主胶路以点硅胶为主" },
+      { "key": "C", "text": "通过 PCBA 盖板 L 型台阶限位，主胶路以 U 型 UV 胶槽为主" },
+      { "key": "D", "text": "通过喇叭支架独立后腔连接，主胶路以低音单元周圈 UV 为主" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "EV16",
+    "examId": "exploded-view",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "模块划分",
+    "stem": "爆炸图阅读模块包括哪些产品或组件范围？",
+    "options": [
+      { "key": "A", "text": "UCS 耳挂的耳机芯、耳挂组件和电池盖组件" },
+      { "key": "B", "text": "THK 耳夹的喇叭组件、连接桥和电池仓组件" },
+      { "key": "C", "text": "BOS 后挂的耳机芯、左右耳挂/仓体和后挂组件" },
+      { "key": "D", "text": "电路原理图、声学调音曲线和量产测试治具" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "EV17",
+    "examId": "exploded-view",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "UCS 胶接与密封",
+    "stem": "下列哪些属于 UCS 结构中提到的胶接或密封关注点？",
+    "options": [
+      { "key": "A", "text": "耳挂与仓体连接处点胶" },
+      { "key": "B", "text": "电池盖与耳挂硅胶处预留存胶空间" },
+      { "key": "C", "text": "低音单元与喇叭支架周圈 UV 密封" },
+      { "key": "D", "text": "后挂穿线孔通过卡扣和点硅胶密封" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "EV18",
+    "examId": "exploded-view",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "THK 电池仓识别",
+    "stem": "THK 电池仓端通常集成或容纳哪些结构/器件？",
+    "options": [
+      { "key": "A", "text": "PCBA 和电池" },
+      { "key": "B", "text": "天线钣金件和塑胶支架" },
+      { "key": "C", "text": "磁铁和充电铜柱" },
+      { "key": "D", "text": "骨导振子和导声管网" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "EV19",
+    "examId": "exploded-view",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "BOS 右耳挂装配",
+    "stem": "BOS 右耳挂/板仓组件中，哪些装配关系描述正确？",
+    "options": [
+      { "key": "A", "text": "Type-C 外装入仓体通孔" },
+      { "key": "B", "text": "PCBA 组件由头部、中间、尾部卡槽定位" },
+      { "key": "C", "text": "PCBA 盖板自上而下装入 L 型台阶" },
+      { "key": "D", "text": "电池仓转接板贴在电池上再装入右侧板仓" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "EV20",
+    "examId": "exploded-view",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "耳机结构爆炸图标注版",
+    "topic": "爆炸图工程阅读",
+    "stem": "将爆炸图用于结构分析或仿真前理解时，哪些做法更合理？",
+    "options": [
+      { "key": "A", "text": "区分材料、固定方式和胶接区域，识别可能的连接与密封风险" },
+      { "key": "B", "text": "把电子和声学器件作为位置级信息阅读，避免超出课件范围展开制程问题" },
+      { "key": "C", "text": "结合装配关系判断哪些界面可能需要接触、粘接或简化处理" },
+      { "key": "D", "text": "将所有标注件视为同等结构重要性，前处理时不再做筛选" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "REV01",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "课程目标",
+    "stem": "主题式仿真结果评审汇报的核心目标之一是“讲清方案”，这意味着汇报不应停留在罗列云图，而要说明：",
+    "options": [
+      { "key": "A", "text": "为什么做、怎么建模、比较哪些方案" },
+      { "key": "B", "text": "网格是否收敛、结果是否稳定、输出是否完整" },
+      { "key": "C", "text": "材料是否齐全、接触是否定义、求解是否完成" },
+      { "key": "D", "text": "工况是否覆盖、载荷是否保守、结果是否可复现" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV02",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "主题式汇报",
+    "stem": "“主题式汇报”的定义更接近：",
+    "options": [
+      { "key": "A", "text": "围绕一个工程风险主题组织背景、方案、结果、结论与行动" },
+      { "key": "B", "text": "围绕建模、求解、后处理三个操作阶段组织材料" },
+      { "key": "C", "text": "按零件逐项列出最大应力，再由评审者自行取舍" },
+      { "key": "D", "text": "以模型完整性为主线，弱化风险主题和行动建议" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV03",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "结果页标准",
+    "stem": "一页结果页应尽量回答结论、推荐方案、最大风险，以及：",
+    "options": [
+      { "key": "A", "text": "下一步谁来做" },
+      { "key": "B", "text": "每个方案的完整网格参数" },
+      { "key": "C", "text": "全部输出变量的最大值" },
+      { "key": "D", "text": "所有接触对的求解状态" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV04",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "3 分钟结构",
+    "stem": "3 分钟仿真评审汇报的推荐顺序是：",
+    "options": [
+      { "key": "A", "text": "背景、方案、结果、风险、建议" },
+      { "key": "B", "text": "背景、网格、材料、求解、云图" },
+      { "key": "C", "text": "方案、建模、求解、后处理、附录" },
+      { "key": "D", "text": "结论、结果、风险、背景、建议" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV05",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "结果讲述",
+    "stem": "在 3 分钟结构中，“结果”部分应优先讲：",
+    "options": [
+      { "key": "A", "text": "能支撑结论的关键云图、曲线或表格" },
+      { "key": "B", "text": "全部输出变量和所有增量帧的变化" },
+      { "key": "C", "text": "网格划分过程中的每次参数调整" },
+      { "key": "D", "text": "模型假设、网格细节和接触参数的完整展开" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV06",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "评审前准备",
+    "stem": "评审前准备中的“模型范围”需要回答的关键问题是：",
+    "options": [
+      { "key": "A", "text": "哪些零件被保留，哪些被简化，以及为什么合理" },
+      { "key": "B", "text": "每个零件的网格尺寸是否完全一致" },
+      { "key": "C", "text": "结果动画是否覆盖所有可显示变量" },
+      { "key": "D", "text": "保留零件的材料牌号是否都来自同一批次" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV07",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "边界与载荷",
+    "stem": "评审前准备中，边界与载荷部分需要重点说明：",
+    "options": [
+      { "key": "A", "text": "固定截面、拉力大小、方向和接触设置是否与试验一致" },
+      { "key": "B", "text": "输出变量、云图阈值和结果帧是否保持一致" },
+      { "key": "C", "text": "固定方式是否可以替代所有接触设置" },
+      { "key": "D", "text": "材料强度是否统一采用同一个安全系数" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV08",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "材料与判据",
+    "stem": "材料与失效判据准备中，需要说明真实应力/应变、屈服或断裂，以及：",
+    "options": [
+      { "key": "A", "text": "数据来源" },
+      { "key": "B", "text": "汇报模板来源" },
+      { "key": "C", "text": "最大值所在区域" },
+      { "key": "D", "text": "网格加密方式" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV09",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "风险量化",
+    "stem": "风险评审中，应把“最大值”进一步转成：",
+    "options": [
+      { "key": "A", "text": "裕量、风险等级和关闭计划" },
+      { "key": "B", "text": "节点编号、单元编号和显示组名称" },
+      { "key": "C", "text": "单元类型、网格尺寸和输出变量" },
+      { "key": "D", "text": "载荷来源、材料牌号和接触属性" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV10",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "好汇报标准",
+    "stem": "一场有效的仿真评审结束后，参会者应清楚知道：",
+    "options": [
+      { "key": "A", "text": "风险、取舍与下一步" },
+      { "key": "B", "text": "每个增量步的收敛迭代次数" },
+      { "key": "C", "text": "模型可信度、材料来源与网格设置" },
+      { "key": "D", "text": "完整工况、完整变量与完整云图" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV11",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "easy",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "案例解读",
+    "stem": "塑胶插销案例中，材料 2 的风险重点并非应力超限，而更偏向：",
+    "options": [
+      { "key": "A", "text": "应变裕量、材料数据与接触设置不确定性" },
+      { "key": "B", "text": "喇叭支架材料和点胶路径不确定性" },
+      { "key": "C", "text": "网格密度、输出频率与求解时间不确定性" },
+      { "key": "D", "text": "载荷单位、模型显示比例与汇报顺序不确定性" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV12",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "常见问题",
+    "stem": "针对“只放云图，不讲结论”的易错点，合理改法是：",
+    "options": [
+      { "key": "A", "text": "每张图必须配一句“所以我们判断……”" },
+      { "key": "B", "text": "把云图数量扩展到覆盖全部输出变量" },
+      { "key": "C", "text": "把图例范围固定为同一个最大最小值" },
+      { "key": "D", "text": "先展示求解日志，再展示云图细节" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV13",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "结果解释",
+    "stem": "针对“只报最大值，不报位置”的问题，汇报者应补充说明最大值位置、失效机理，以及：",
+    "options": [
+      { "key": "A", "text": "是否为真实热点" },
+      { "key": "B", "text": "该位置是否使用同一材料牌号" },
+      { "key": "C", "text": "该位置是否位于局部加密区域" },
+      { "key": "D", "text": "该位置是否来自最后一个结果帧" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV14",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "medium",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "评审问答",
+    "stem": "讲者回答评审问题时，建议使用的表达结构是：",
+    "options": [
+      { "key": "A", "text": "判断 + 证据 + 行动" },
+      { "key": "B", "text": "结论 + 变量 + 截图" },
+      { "key": "C", "text": "背景 + 模型 + 结果" },
+      { "key": "D", "text": "风险 + 指标 + 附录" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV15",
+    "examId": "simulation-review-report",
+    "type": "single",
+    "difficulty": "hard",
+    "points": 4,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "评审结论",
+    "stem": "塑胶插销风险评审示范中，对材料 1/3 与材料 2 的建议更接近：",
+    "options": [
+      { "key": "A", "text": "材料 1/3 继续推进，材料 2 需先关闭材料极限与接触设置不确定性" },
+      { "key": "B", "text": "材料 2 应力强度更高，因此直接优先推进并取消样件验证" },
+      { "key": "C", "text": "三种材料均低于极限，因此评审后无需保留任何关闭项" },
+      { "key": "D", "text": "材料 1/3 风险较低，所以不需要说明长期疲劳或环境老化" }
+    ],
+    "answer": ["A"]
+  },
+  {
+    "id": "REV16",
+    "examId": "simulation-review-report",
+    "type": "multiple",
+    "difficulty": "easy",
+    "points": 8,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "准备物料",
+    "stem": "评审前建议准备的物料包括哪些？",
+    "options": [
+      { "key": "A", "text": "模型截图和结果图" },
+      { "key": "B", "text": "方案表和风险清单" },
+      { "key": "C", "text": "评审问题预案" },
+      { "key": "D", "text": "完整求解日志和全部中间云图" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "REV17",
+    "examId": "simulation-review-report",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "评审提问清单",
+    "stem": "评审提问清单中，评审者常关注哪些维度？",
+    "options": [
+      { "key": "A", "text": "模型可信度和工况覆盖度" },
+      { "key": "B", "text": "材料数据来源与结果解释" },
+      { "key": "C", "text": "风险关闭的验证项目、责任人和完成时间" },
+      { "key": "D", "text": "求解器版本、后处理显示样式和汇报模板" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "REV18",
+    "examId": "simulation-review-report",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "报告表达",
+    "stem": "一份清楚的仿真评审汇报通常应表达哪些内容？",
+    "options": [
+      { "key": "A", "text": "背景、工况和模型简化假设" },
+      { "key": "B", "text": "指标阈值、风险判断和推荐方案" },
+      { "key": "C", "text": "验证计划、待关闭项和责任安排" },
+      { "key": "D", "text": "全部输出变量和完整操作过程" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "REV19",
+    "examId": "simulation-review-report",
+    "type": "multiple",
+    "difficulty": "medium",
+    "points": 8,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "演练评分",
+    "stem": "3 分钟上台演练的评分关注点包括哪些？",
+    "options": [
+      { "key": "A", "text": "主题明确，背景有必要性" },
+      { "key": "B", "text": "模型、工况、材料和判据完整" },
+      { "key": "C", "text": "风险有裕量、不确定性和等级，并给出行动" },
+      { "key": "D", "text": "动画切换流畅，并展示全部后处理变量" }
+    ],
+    "answer": ["A", "B", "C"]
+  },
+  {
+    "id": "REV20",
+    "examId": "simulation-review-report",
+    "type": "multiple",
+    "difficulty": "hard",
+    "points": 8,
+    "course": "韶音校招生课程_主题式仿真结果评审汇报",
+    "topic": "决策导向",
+    "stem": "为了让评审真正支持决策，哪些表达更合理？",
+    "options": [
+      { "key": "A", "text": "说明在哪些条件下安全，以及哪些条件尚未覆盖" },
+      { "key": "B", "text": "把关键最大值转化为裕量、风险等级和关闭计划" },
+      { "key": "C", "text": "给出推荐方案、验证方法、责任人和完成时间" },
+      { "key": "D", "text": "以单张云图作为放行依据，弱化边界条件差异" }
+    ],
+    "answer": ["A", "B", "C"]
+  }
+]

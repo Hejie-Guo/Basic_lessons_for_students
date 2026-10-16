@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">基于 ABAQUS 的仿真结果后处理及分析</title>
+  <desc id="desc">Abaqus 后处理和结果分析课程封面图</desc>
+  <rect width="960" height="480" fill="#f8fafc"/>
+  <rect x="46" y="44" width="868" height="392" rx="18" fill="#ffffff" stroke="#d6dee9" stroke-width="3"/>
+  <rect x="88" y="94" width="408" height="276" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <path d="M122 320c42-112 78-56 120-154 38 76 74 116 116 54 34-50 68-18 104 60" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+  <rect x="548" y="104" width="280" height="44" rx="8" fill="#dff5f1"/>
+  <rect x="548" y="178" width="218" height="44" rx="8" fill="#fff1d6"/>
+  <rect x="548" y="252" width="250" height="44" rx="8" fill="#fee4e2"/>
+  <rect x="548" y="326" width="304" height="44" rx="8" fill="#e7eefc"/>
+  <text x="570" y="134" fill="#0f766e" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700">诊断</text>
+  <text x="570" y="208" fill="#b54708" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700">能量</text>
+  <text x="570" y="282" fill="#b42318" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700">收敛</text>
+  <text x="570" y="356" fill="#2563eb" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700">报告</text>
+  <text x="88" y="414" fill="#475467" font-family="Microsoft YaHei, Arial" font-size="24">ODB · 云图 · 探针 · XY 数据 · 工程结论</text>
+</svg>

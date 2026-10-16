@@ -1,0 +1,130 @@
+[
+  {
+    "id": "reliability",
+    "title": "可靠性设计与力学仿真概述",
+    "description": "覆盖可靠性定义、浴盆曲线、DFR、加速实验、强度设计、有限元仿真流程与可靠性测试。",
+    "materialTitle": "可靠性设计与力学仿真概述.pdf",
+    "materialFile": "课程文件/可靠性设计与力学仿真概述/可靠性设计与力学仿真概述.pdf",
+    "coverFile": "课程文件/可靠性设计与力学仿真概述/可靠性设计与力学仿真概述.png",
+    "coverImage": "/assets/course-covers/reliability.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "可靠性设计与力学仿真概述.pdf",
+        "file": "课程文件/可靠性设计与力学仿真概述/可靠性设计与力学仿真概述.pdf"
+      }
+    ]
+  },
+  {
+    "id": "materials",
+    "title": "耳机常见工程材料及其力学本构",
+    "description": "覆盖耳机常见材料、MCAL/V&V 分级、塑胶/硅胶/胶水/NiTi 本构与硬件材料可靠性。",
+    "materialTitle": "耳机常见工程材料及其力学本构.pdf",
+    "materialFile": "课程文件/耳机常见工程材料及其力学本构/耳机常见工程材料及其力学本构.pdf",
+    "coverFile": "课程文件/耳机常见工程材料及其力学本构/耳机常见工程材料及其力学本构.png",
+    "coverImage": "/assets/course-covers/materials.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "耳机常见工程材料及其力学本构.pdf",
+        "file": "课程文件/耳机常见工程材料及其力学本构/耳机常见工程材料及其力学本构.pdf"
+      }
+    ]
+  },
+  {
+    "id": "assembly-process-simulation",
+    "title": "耳机常见装配工艺及仿真方法",
+    "description": "覆盖胶粘、热熔柱、过盈装配的工艺作用、设计关注点与仿真简化方法。",
+    "materialTitle": "耳机常见装配工艺及仿真方法_20260522.pdf",
+    "materialFile": "课程文件/耳机常见装配工艺及仿真方法/耳机常见装配工艺及仿真方法_20260522.pdf",
+    "coverFile": "课程文件/耳机结构爆炸图/屏幕截图 2026-06-10 140817.png",
+    "coverImage": "/assets/course-covers/assembly-process-simulation.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "耳机常见装配工艺及仿真方法_20260522.pdf",
+        "file": "课程文件/耳机常见装配工艺及仿真方法/耳机常见装配工艺及仿真方法_20260522.pdf"
+      }
+    ]
+  },
+  {
+    "id": "simulation-modeling",
+    "title": "仿真模型搭建",
+    "description": "覆盖材料属性、截面分配、网格划分、装配、分析步、相互作用与边界条件设置。",
+    "materialTitle": "仿真模型搭建.pdf",
+    "materialFile": "课程文件/仿真模型搭建/仿真模型搭建.pdf",
+    "coverFile": "课程文件/仿真模型搭建/屏幕截图 2026-06-10 141118.png",
+    "coverImage": "/assets/course-covers/simulation-modeling.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "仿真模型搭建.pdf",
+        "file": "课程文件/仿真模型搭建/仿真模型搭建.pdf"
+      }
+    ]
+  },
+  {
+    "id": "abaqus-postprocessing",
+    "title": "基于 ABAQUS 的仿真结果后处理及分析",
+    "description": "覆盖作业诊断、能量平衡、网格收敛、结果读取、参数提取与工程报告表达。",
+    "materialTitle": "基于ABAQUS的仿真结果后处理及分析_20260428.pdf",
+    "materialFile": "课程文件/基于ABAQUS的仿真结果后处理及分析/基于ABAQUS的仿真结果后处理及分析_20260428.pdf",
+    "coverFile": "课程文件/基于ABAQUS的仿真结果后处理及分析/屏幕截图 2026-06-10 141321.png",
+    "coverImage": "/assets/course-covers/abaqus-postprocessing.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "基于ABAQUS的仿真结果后处理及分析_20260428.pdf",
+        "file": "课程文件/基于ABAQUS的仿真结果后处理及分析/基于ABAQUS的仿真结果后处理及分析_20260428.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mesh-preprocessing",
+    "title": "仿真模型网格前处理",
+    "description": "用于学习网格前处理流程、SOP 操作规范和前处理作业要求。",
+    "materialTitle": "仿真模型网格前处理SOP_202606.pdf",
+    "materialFile": "课程文件/仿真模型网格前处理/仿真模型网格前处理SOP_202606.pdf",
+    "coverFile": "课程文件/仿真模型网格前处理/屏幕截图 2026-06-10 141954.png",
+    "coverImage": "/assets/course-covers/mesh-preprocessing.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "仿真模型网格前处理SOP_202606.pdf",
+        "file": "课程文件/仿真模型网格前处理/仿真模型网格前处理SOP_202606.pdf"
+      }
+    ]
+  },
+  {
+    "id": "exploded-view",
+    "title": "耳机结构爆炸图标注版",
+    "description": "用于认识耳机主要结构件、装配关系、材料、固定方式和点胶区域。",
+    "materialTitle": "耳机结构爆炸图.pdf",
+    "materialFile": "课程文件/耳机结构爆炸图/耳机结构爆炸图.pdf",
+    "coverFile": "课程文件/耳机结构爆炸图标注版/屏幕截图 2026-06-10 141003.png",
+    "coverImage": "/assets/course-covers/exploded-view.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "耳机结构爆炸图.pdf",
+        "file": "课程文件/耳机结构爆炸图/耳机结构爆炸图.pdf"
+      }
+    ]
+  },
+  {
+    "id": "simulation-review-report",
+    "title": "韶音校招生课程_主题式仿真结果评审汇报",
+    "description": "用于学习仿真结果评审汇报的话术结构、论据组织、风险表达和结论收口。",
+    "materialTitle": "韶音校招生课程_主题式仿真结果评审汇报.pdf",
+    "materialFile": "课程文件/主题式仿真结果评审汇报/韶音校招生课程_主题式仿真结果评审汇报.pdf",
+    "coverFile": "课程文件/主题式仿真结果评审汇报/屏幕截图 2026-06-10 141539.png",
+    "coverImage": "/assets/course-covers/simulation-review-report.png",
+    "examEnabled": true,
+    "materials": [
+      {
+        "title": "韶音校招生课程_主题式仿真结果评审汇报.pdf",
+        "file": "课程文件/主题式仿真结果评审汇报/韶音校招生课程_主题式仿真结果评审汇报.pdf"
+      }
+    ]
+  }
+]

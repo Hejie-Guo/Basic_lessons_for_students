@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">耳机常见装配工艺及仿真方法</title>
+  <desc id="desc">胶粘、热熔柱和过盈装配的课程封面图</desc>
+  <rect width="960" height="480" fill="#f8fafc"/>
+  <rect x="44" y="42" width="872" height="396" rx="18" fill="#ffffff" stroke="#d6dee9" stroke-width="3"/>
+  <rect x="78" y="74" width="250" height="118" rx="12" fill="#dff5f1"/>
+  <rect x="355" y="74" width="250" height="118" rx="12" fill="#fff1d6"/>
+  <rect x="632" y="74" width="250" height="118" rx="12" fill="#e7eefc"/>
+  <text x="100" y="126" fill="#0f766e" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700">胶粘</text>
+  <text x="377" y="126" fill="#b54708" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700">热熔柱</text>
+  <text x="654" y="126" fill="#2563eb" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700">过盈</text>
+  <path d="M122 280h210c28 0 52 22 52 50s-24 50-52 50H122c-28 0-52-22-52-50s24-50 52-50Z" fill="#182230"/>
+  <path d="M566 330c0-54 44-98 98-98h74c54 0 98 44 98 98s-44 98-98 98h-74c-54 0-98-44-98-98Z" fill="#172554"/>
+  <circle cx="664" cy="330" r="52" fill="#e0f2fe"/>
+  <circle cx="738" cy="330" r="52" fill="#dbeafe"/>
+  <path d="M398 252h118v116H398z" fill="#0f766e"/>
+  <path d="M418 214h78v80h-78z" fill="#14b8a6"/>
+  <path d="M378 368h158v34H378z" fill="#ccfbf1"/>
+  <text x="78" y="230" fill="#475467" font-family="Microsoft YaHei, Arial" font-size="24">连接 · 固定 · 密封 · 缓冲</text>
+</svg>

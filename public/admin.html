@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>教师后台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Admin</p>
+        <h1>教师后台</h1>
+      </div>
+      <a class="text-link" href="/">返回考试页</a>
+    </header>
+
+    <main class="layout admin-layout">
+      <section id="login-panel" class="admin-panel">
+        <form id="login-form" class="login-form">
+          <label>
+            <span>管理员密码</span>
+            <input id="admin-password" type="password" autocomplete="current-password" required />
+          </label>
+          <button class="primary-button" type="submit">登录</button>
+          <p id="login-status" class="status-text" role="status"></p>
+        </form>
+      </section>
+
+      <section id="dashboard-panel" class="admin-panel" hidden>
+        <div class="dashboard-toolbar">
+          <div>
+            <p class="eyebrow">Submissions</p>
+            <h2>答卷记录</h2>
+          </div>
+          <div class="toolbar-actions">
+            <button id="refresh-button" class="secondary-button" type="button">刷新</button>
+            <button id="logout-button" class="ghost-button" type="button">退出</button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="submission-table">
+            <thead>
+              <tr>
+                <th>提交时间</th>
+                <th>考试项目</th>
+                <th>姓名</th>
+                <th>工号</th>
+                <th>得分</th>
+                <th>结果</th>
+                <th>答对</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody id="submission-body"></tbody>
+          </table>
+        </div>
+        <p id="dashboard-status" class="status-text" role="status"></p>
+      </section>
+
+      <section id="detail-panel" class="admin-panel detail-panel" hidden></section>
+    </main>
+
+    <script src="/admin.js"></script>
+  </body>
+</html>

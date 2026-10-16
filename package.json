@@ -1,0 +1,11 @@
+{
+  "name": "campus-exam-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "本机/局域网校招生培训与课程考试系统",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/scoring.test.js && node tests/exam-selection.test.js && node tests/question-bank.test.js && node tests/question-copy.test.js && node tests/ui-hidden.test.js && node tests/ui-copy.test.js && node tests/materials.test.js && node tests/course-covers.test.js && node tests/pass-status.test.js"
+  },
+  "dependencies": {}
+}

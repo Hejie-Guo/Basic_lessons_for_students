@@ -1,0 +1,5 @@
+node_modules/
+*.log
+data/config.json
+data/submissions.json
+.DS_Store
